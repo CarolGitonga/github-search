@@ -1,6 +1,6 @@
 .jumbotron {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 30px;
     background-color: rgb(31, 31, 207);
     opacity: 0.9;
@@ -20,7 +20,6 @@
   body {
     background-image: url("/assets/pic.jpg");
     background-position: center;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cccccc;
