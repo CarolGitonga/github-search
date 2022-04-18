@@ -2,7 +2,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 30px;
-    background-color: rgb(84, 84, 189);
+    background-color: rgb(31, 31, 207);
     opacity: 0.9;
     margin: 10px;
   }
@@ -10,7 +10,6 @@
   
   h3 {
     font-size: 50px;
-    font: outline;
   }
   
   p {
@@ -19,9 +18,12 @@
   }
   
   body {
-    background-image: url("/assets/ocean.jpg");
+    background-image: url("/assets/pic.jpg");
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
   }
   
   .container{

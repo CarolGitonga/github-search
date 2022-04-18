@@ -12,7 +12,7 @@
     <!-- End of search bar area -->
     
     <div *ngIf="user">
-      <div class="panel panel-default">
+      <div appStrikethrough class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title" style="font-size: 20px;"><strong>GitHub Name: {{user.name}}</strong></h3>
         </div>
@@ -58,12 +58,13 @@
         </div>
         <div class="panel-body">
           <div *ngFor="let repo of repos">
-            <div class="row">
+            <div appStrikethrough class="row">
               <div class="col-md-9">
                 <h4>
                   <a target="_blank" href="{{repo.html_url}}">{{repo.name}}</a>
                 </h4>
                 <p>{{repo.description}}</p>
+                <p>This repository will be complete in {{repo.completeDate|dateCount}} days</p>
               </div>
               <div class="col-md-3">
                 <span class="label label-default">{{repo.watchers}} Watchers</span>
